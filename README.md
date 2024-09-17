@@ -29,10 +29,10 @@ The API accepts a JSON payload with the following parameters:
 ## Request Body Example
 
     {
-        "key": "3nqfwhuge4evtcrsnfer",
-        "user": "spam_emails@themysterypanda.info",
-        "password": "Redbull1975!!!",
-        "folder": "spam"
+        "key": "<api-key>",
+        "user": "<email_address>",
+        "password": "<pssword<",
+        "folder": "chosen_folder"
     }
 
 Example Response
