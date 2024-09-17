@@ -76,10 +76,10 @@ Error Response:
       curl -X POST https://qbwgifercxemswpdjqwehfrde.belldns.com/bell/server/postfix/<server_id>/folder/delete \
       -H "Content-Type: application/json" \
       -d '{
-          "key": "3nqfwhuge4evtcrsnfer",
-          "user": "spam_emails@themysterypanda.info",
-          "password": "Redbull1975!!!",
-          "folder": "spam"
+          "key": "<api-key>",
+        "user": "<email_address>",
+        "password": "<pssword<",
+        "folder": "chosen_folder"
       }'
 
 Make sure to replace <server_id> with the actual server ID you want to interact with.
